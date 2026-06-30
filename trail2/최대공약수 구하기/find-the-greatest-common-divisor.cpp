@@ -2,8 +2,7 @@
 using namespace std;
 
 void getCGD(int n, int m){
-    int rest = 0;
-    rest = n % m;
+    int rest = n % m;
     while(rest != 0){
         n = m;
         m = rest;
